@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arun Kumar N A — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Arun Kumar N A</h1>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text card-surface">
+          <h2>Hi, I'm Arun Kumar N A</h2>
+          <p class="sub">Currently pursuing B.Tech — Computer Science &amp; Engineering (Data Science) | 5th Semester</p>
+          <p class="muted">Roll No: 20231CSD0154 | Section: 5CSD03</p>
+          <p class="muted small">Email: <a href="mailto:arunkumarnamrark@gmail.com">arunkumarnamrark@gmail.com</a> • Phone: 8073971718</p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="secondary-btn">Contact Me</a>
+            <a href="assets/Arun_Resume.pdf" class="secondary-btn" download>Download Resume</a>
+          </div>
+
+          <div class="chips" style="margin-top:14px;">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Python</span>
+            <span class="chip">Arduino</span>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <div id="profileWrapper" class="profile-wrapper show-svg">
+            <!-- keep img in case you later want to use photo; by default SVG icon shows -->
+            <img id="profileImg" src="assets/profile.jpg" alt="Arun Kumar N A" class="profile-photo" />
+            <svg id="profileSvg" class="profile-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+              <defs>
+                <linearGradient id="gA" x1="0" x2="1">
+                  <stop offset="0" stop-color="#6d28d9"/>
+                  <stop offset="1" stop-color="#0366ff"/>
+                </linearGradient>
+              </defs>
+              <rect width="64" height="64" rx="32" fill="url(#gA)"/>
+              <g transform="translate(8,8)" fill="#fff">
+                <circle cx="24" cy="14" r="10"/>
+                <path d="M4 46c0-8 12-12 20-12s20 4 20 12v4H4v-4z"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="card-surface">
+          <h3>Professional Summary</h3>
+          <p>B.Tech Data Science student with strong skills in <strong>Python</strong>, <strong>Java</strong>, and web development (HTML, CSS, JavaScript). Experienced in building real-time systems and interactive applications, and comfortable with embedded platforms like <strong>Arduino</strong> and <strong>Raspberry Pi</strong>. Strong in teamwork, communication and adapting quickly to new technologies.</p>
+
+          <h4 style="margin-top:16px">Objective</h4>
+          <p>To gain hands-on experience in a dynamic company where I can apply my technical skills, learn from real-world challenges, and grow professionally in the field of technology.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h3>Skills</h3>
+        <div class="grid-two">
+          <div class="card-surface">
+            <h4>Technical Skills</h4>
+            <ul class="skills-list">
+              <li>Web Development: HTML, CSS, JavaScript</li>
+              <li>Programming: Python, Java, C, C++</li>
+              <li>Data Structures & Algorithms</li>
+              <li>App Development (Flutter - basic)</li>
+              <li>DBMS, Business Intelligence & Analytics (BIA)</li>
+              <li>Embedded: Arduino, Raspberry Pi, Sensors</li>
+              <li>Game Dev: Pygame</li>
+              <li>Version control: Git & GitHub</li>
+            </ul>
+          </div>
+
+          <div class="card-surface">
+            <h4>Soft Skills & Tools</h4>
+            <ul class="skills-list">
+              <li>Communication & Leadership</li>
+              <li>Teamwork & Time Management</li>
+              <li>Analytical and Logical Thinking</li>
+              <li>Quick Learning & Adaptability</li>
+              <li>Public Speaking</li>
+              <li>Project Execution & Coordination</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h3>Projects & Achievements</h3>
+        <div class="projects-grid">
+          <div class="project-card card-surface">
+            <h4>Smart Toll Distance Indicator System — (Arduino)</h4>
+            <p><strong>Objective:</strong> Ease toll congestion and alert personnel of incoming vehicles.</p>
+            <p><strong>Features:</strong> Ultrasonic distance detection, real-time LCD display; coded on Arduino Uno.</p>
+            <div class="project-meta">
+              <span class="meta-badge">Arduino</span>
+              <span class="meta-badge">Embedded</span>
+            </div>
+          </div>
+
+          <div class="project-card card-surface">
+            <h4>RFID-Based Forest Surveillance & Weather Forecast System — (Raspberry Pi)</h4>
+            <p><strong>Objective:</strong> Monitor forests for intrusion and provide weather updates.</p>
+            <p><strong>Tech:</strong> Raspberry Pi, camera module, motion sensor, Python.</p>
+            <p><strong>Highlight:</strong> Captures photos on motion detection and displays live weather. Selected among Top 70 projects (technical innovation).</p>
+            <div class="project-meta">
+              <span class="meta-badge">Raspberry Pi</span>
+              <span class="meta-badge">IoT</span>
+              <span class="meta-badge">Top 70</span>
+            </div>
+          </div>
+
+          <div class="project-card card-surface">
+            <h4>Dino Adventure Game — (Python Pygame)</h4>
+            <p>Multi-level side-scrolling runner game with jump mechanics, enemy collisions, dynamic background scenes, fade/zoom endings, and character animations.</p>
+            <div class="project-meta">
+              <span class="meta-badge">Python</span>
+              <span class="meta-badge">Pygame</span>
+              <span class="meta-badge">Game Dev</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h3>Education</h3>
+        <div class="grid-two">
+          <div class="card-surface">
+            <h4>Presidency University, Bengaluru</h4>
+            <p><strong>B.Tech — Computer Science &amp; Engineering (Data Science)</strong></p>
+            <p>Currently Pursuing — 5th Semester | Joined 2023</p>
+            <p><strong>CGPA:</strong> 8.12 (approx.)</p>
+          </div>
+
+          <div class="card-surface">
+            <h4>Academy of Learning PU College (RR Institutions), Bengaluru</h4>
+            <p>2nd PU – PCMC Stream (2021 – 2023)</p>
+            <p><strong>Percentage:</strong> 85%</p>
+
+            <h4 style="margin-top:12px">Dolphin Public School</h4>
+            <p>10th Grade (2015 – 2021) | <strong>Percentage:</strong> 88%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h3>Work Experience</h3>
+        <div class="project-card card-surface">
+          <h4>Product Demonstrator — Samsung Unilet, Hebbal, Bengaluru</h4>
+          <p><strong>Duration:</strong> June – August 2023</p>
+          <ul>
+            <li>Demonstrated electronic products, handled customer inquiries and achieved sales goals.</li>
+            <li>Strengthened interpersonal, persuasion and negotiation skills.</li>
+            <li>Gained experience working under pressure and coordinating with teams.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXTRAS -->
+    <section id="extras" class="section">
+      <div class="container">
+        <h3>Hobbies & Languages</h3>
+        <div class="card-surface">
+          <p><strong>Hobbies:</strong> Regular workouts, sports (Cricket, Kho Kho, Kabaddi, Swimming), singing, cooking, gardening, traveling.</p>
+          <p><strong>Languages:</strong> Kannada (Native), English (Proficient), Hindi (Fluent)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <div class="grid-two">
+          <div class="card-surface">
+            <p><strong>Email:</strong> <a href="mailto:arunkumarnamrark@gmail.com">arunkumarnamrark@gmail.com</a></p>
+            <p><strong>Phone:</strong> 8073971718</p>
+            <p><strong>Address:</strong> Hurullichikkanahalli, Torenagasandra Cross, Hesaraghatta, Chikkabannavara – 560090, Bengaluru</p>
+          </div>
+
+          <div class="card-surface">
+            <form id="contactForm" class="contact-form" novalidate>
+              <label>Name<input type="text" id="name" required /></label>
+              <label>Email<input type="email" id="email" required /></label>
+              <label>Message<textarea id="message" rows="4" required></textarea></label>
+              <button type="submit" class="btn">Send (Demo)</button>
+              <p id="formMsg" class="form-msg"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Arun Kumar N A — Roll No: 20231CSD0154</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
